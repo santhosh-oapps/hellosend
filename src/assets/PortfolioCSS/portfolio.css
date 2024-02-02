@@ -1,0 +1,592 @@
+.portfolioBgBtn {
+  flex: 1;border: 1px solid #000;border-width: 0 1px 0 0;border-radius: 0;
+
+}
+.porfolio-wrap{border: 1px solid #000;border-width:0 1px 1px 1px;margin-top: -14px;margin-bottom: 50px;}
+.portfolio {
+    padding: 60px 0;
+  }
+  .portfolio-flters{
+    margin-top: 40px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .portfolio .portfolio-flters {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .portfolio .portfolio-flters li {
+    cursor: pointer;
+    margin: 15px 15px 15px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+   .portfolio-flters li:hover{
+    background: #18d26e;
+    color: #fff !important;
+  }
+  .heightAuto {
+    height: auto !important;
+  }
+  
+  .portfolio .portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .portfolio .portfolio-wrap {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap:hover {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+  }
+  
+  .portfolio .portfolio-item {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+  }
+  
+  .portfolio .portfolio-item figure {
+    background: #000;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+  }
+  
+  .portfolio .portfolio-item figure:hover img {
+    opacity: 0.4;
+    transition: 0.3s;
+  }
+  
+  .portfolio .portfolio-item  figure:hover .logo-image {
+    opacity: 0.1;
+    transition: 0.1s;
+  }
+  
+  .portfolio .portfolio-item figure .link-preview, .portfolio .portfolio-item figure .link-details {
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+    line-height: -1;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.2s;
+  }
+  .portfolioTitle{
+    font-size: small !important;
+  }
+  
+  .portfolio .portfolio-item figure .link-preview i, .portfolio .portfolio-item figure .link-details i {
+    padding-top: 6px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .portfolio .portfolio-item figure .link-preview:hover, .portfolio .portfolio-item figure .link-details:hover {
+    background: #18d26e;
+  }
+  
+  .portfolio .portfolio-item figure .link-preview:hover i, .portfolio .portfolio-item figure .link-details:hover i {
+    color: #fff;
+  }
+  
+  .portfolio .portfolio-item figure .link-preview  {
+    right: calc(50% - 38px);
+    top: calc(50% - 18px);
+  }
+  
+  .portfolio .portfolio-item figure .link-details {
+    left: calc(50% - 38px);
+    top: calc(50% - 18px);
+  }
+  
+  .portfolio .portfolio-item figure:hover .link-preview  {
+    visibility: visible;
+    right: calc(50% - 44px);
+  }
+  
+  .portfolio .portfolio-item figure:hover .link-details {
+    visibility: visible;
+    left: calc(50% - 44px);
+  }
+  
+  .portfolio .portfolio-item .portfolio-info {
+    background: #fff;
+    text-align: center;
+    padding: 30px;
+    height: 120px;
+    border-radius: 0 0 3px 3px;
+  }
+  
+  .portfolio .portfolio-item .portfolio-info h4 {
+    font-size: 13px;
+    line-height: 1px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+  }
+  
+  .portfolio .portfolio-item .portfolio-info h4 a {
+    color: #333;
+  }
+  
+  .portfolio .portfolio-item .portfolio-info h4 a:hover {
+    color: #18d26e;
+  }
+  
+  .portfolio .portfolio-item .portfolio-info p {
+    padding: 0;
+    margin: 0;
+    color: #b8b8b8;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .ribbon {
+    height: 0px;
+    position: relative;
+    margin-bottom: 0px;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    zoom:0.7;
+  }
+  .ribbon1 {
+    position: absolute;
+    right: 111px;
+  }
+  .ribbon1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 53px solid transparent;
+    border-right: 53px solid transparent;
+    border-top: 10px solid #F8463F;
+  }
+  .ribbon1 span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #F8463F;
+    font-size: 14px;
+    line-height: 1;
+    padding: 12px 8px 10px;
+    border-top-right-radius: 8px;
+    width: 90px;
+  }
+  .ribbon1 span:before, .ribbon1 span:after {
+    position: absolute;
+    content: "";
+  }
+  .ribbon1 span:before {
+   height: 6px;
+   width: 6px;
+   left: -6px;
+   top: 0;
+   background: #F8463F;
+  }
+  .ribbon1 span:after {
+   height: 6px;
+   width: 8px;
+   left: -8px;
+   top: 0;
+   border-radius: 8px 8px 0 0;
+   background: #C02031;
+  }
+
+  .container-fluid{max-width: 90%;margin: 0 auto;}
+  .integ-txt{margin-bottom: 20px;font-size: 18px;line-height: 28px;}
+  
+  @media (min-width: 500px) {
+    .ribbons-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .ribbon {
+      width: 48%;
+    }
+  }
+  
+  
+  .ribbonFirstPage{
+    width: 80% !important;
+    font-size:20px;
+    position:relative;
+    display:inline-block;
+    margin:5em;
+    text-align:center;
+  }
+  .text{
+    display:inline-block;
+    padding:0.5em 1em;
+    min-width:20em;
+    line-height:1.2em;
+    background: #FFD72A;
+    position:relative;
+  }
+  .ribbonFirstPage:after,.ribbonFirstPage:before,
+  .text:before,.text:after,
+  .bold:before{
+    content:'';
+    position:absolute;
+    border-style:solid;
+  }
+  .ribbonFirstPage:before{
+    top:0.3em; left:0.2em;
+    width:100%; height:100%;
+    border:none;
+    background:#EBECED;
+    z-index:-2;
+  }
+  .text:before{
+    bottom:100%; left:0;
+    border-width: .5em .7em 0 0;
+    border-color: transparent #FC9544 transparent transparent;
+  }
+  .text:after{
+    top:100%; right:0;
+    border-width: .5em 2em 0 0;
+    border-color: #FC9544 transparent transparent transparent;
+  }
+  .ribbonFirstPage:after, .bold:before{
+    top:0.5em;right:-2em;
+    border-width: 1.1em 1em 1.1em 3em;
+    border-color: #FECC30 transparent #FECC30 #FECC30;
+    z-index:-1;
+  }
+  .bold:before{
+    border-color: #EBECED transparent #EBECED #EBECED;
+    top:0.7em;
+    right:-2.3em;
+  }
+
+
+
+
+
+  /* <-- Image --> */
+
+
+  .zohodesk-image-position {
+    background-position: -668px -812px !important;
+    height: 44px;
+    width: 44px;  
+    zoom: 0.75;
+  }
+  .logo-image {
+    background: url("../../img/PortfolioImage/allLogos.png") no-repeat;
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .twilio-image-position {
+    width: 111px; height: 114px;
+    background-position: -10px -810px !important;
+    zoom: 0.31;
+    
+  }
+  .activecampaign-image-position {
+    width: 89px; height: 89px;
+    background-position: -141px -812px !important;
+    zoom :0.38;
+    
+  }
+  .chartMogul-image-position {
+    width: 138px; height: 92px;
+    background-position: -542px -402px !important;
+    zoom: 0.24;
+    margin-top: -43% !important;
+    margin-left: 25% !important;; 
+    
+  }
+  .freshdesk-image-position {
+    width: 52px; height: 53px;
+    background-position: -978px -419px !important;
+    zoom :0.75;
+    
+  }
+  .hubspot-image-position {
+    width: 113px; height: 112px;
+    background-position: -143px -679px !important;
+    zoom: 0.40;
+    margin-top: -46% !important;
+    margin-left: 23% !important;;    
+  }
+
+  .insightly-image-position {
+    width: 113px; height: 113px;
+    background-position: -443px -539px !important;
+    zoom :0.23;
+    margin-top: -43% !important;
+    margin-left: 26% !important;
+    
+  }
+  .intercom-image-position {
+    width: 113px; height: 113px;
+    background-position: -576px -542px !important;
+    zoom :0.29;
+    
+  }
+  .monday-image-position {
+    width: 88px; height: 65px;
+    background-position: -366px -812px !important;
+    zoom: 0.46;
+    
+    
+  }
+  .outreach-image-position {
+    width: 97px; height: 95px;
+    background-position: -650px -672px !important;
+    zoom :0.35;
+    
+  }
+  .phoneverifier-image-position {
+    width: 90px; height: 90px;
+    background-position: -765px -676px !important;
+    zoom :0.35;
+    
+  }
+  .pipedrive-image-position {
+    width: 142px; height: 89px;
+    background-position: -690px -409px !important;
+    zoom: 0.37;
+    margin-left: 412px !important;
+   
+    
+  }
+  .plivo-image-position {
+    width: 96px; height: 83px;
+    background-position: -883px -679px !important;
+    zoom :0.44;
+    
+  }
+  .ringcentral-image-position {
+    width: 66px; height: 66px;
+    background-position: -979px -545px !important;
+    zoom: 0.60;
+    
+    
+  }
+  .salesforce-image-position {
+    width: 96px; height: 67px;
+    background-position: -260px -812px !important;
+    zoom: 0.5;
+  
+    
+    
+  }
+  .salesloft-image-position {
+    width: 221px; height: 202px;
+    background-position: -795px -143px !important;
+    zoom: 0.17;
+    
+    
+  }
+  .sugarcrm-image-position {
+    width: 100px; height: 100px;
+    background-position: -416px -679px !important;
+    zoom :0.3;
+    
+  }
+  .shopify-image-position {
+    width: 225px; height: 256px;
+    background-position: -542px -143px !important;
+    zoom :0.14;
+    
+  }
+  .telnyx-image-position {
+    width: 70px; height: 70px;
+    background-position: -15px -949px !important;
+    zoom: 0.58;
+    
+    
+  }
+  
+  .viberchatbot-image-position {
+    width: 96px; height: 85px;
+    background-position: -870px -419px !important;
+    zoom: 0.42;
+    
+  }
+  .vimeo-image-position {
+    width: 413px; height: 117px;
+    background-position: -10px -542px !important;
+    zoom: 0.11;
+    margin-top: -42% !important;
+    margin-left: 23% !important;
+
+   
+  }
+  .vonage-image-position {
+    width: 120px; height: 105px;
+    background-position: -276px -679px !important;
+    zoom: 0.21;
+    margin-top: -43% !important;
+    margin-left: 26% !important;
+    
+    
+  }
+  .whatsapp-image-position {
+    width: 113px; height: 113px;
+    background-position: -709px -542px !important;
+    zoom :0.34;
+    
+  }
+  .workflow-image-position {
+    width: 96px; height: 26px;
+    background-position: -787px -365px !important;
+    zoom: 0.62;
+    margin-top: -42% !important;
+    margin-left: 21% !important;    
+  }
+  .wrike-image-position {
+    width: 65px; height: 49px;
+    background-position: -593px -812px !important;
+    zoom: 0.68;
+    
+    
+  }
+  .zendesk-image-position {
+    width: 89px; height: 64px;
+    background-position: -490px -812px !important;
+    zoom: 0.55;
+   
+    
+    
+  }
+  .zendesksell-image-position {
+    width: 113px; height: 113px;
+    background-position: -835px -532px !important;
+    zoom: 0.24;
+  
+    
+    
+  }
+  .zohocrm-image-position {
+    width: 100px; height: 100px;
+    background-position: -542px -682px !important;
+    zoom :0.40;
+    
+  }
+  
+  .zohomail-image-position {
+    width: 113px; height: 113px;
+    background-position: -8px -679px !important;
+    zoom :0.26;
+    margin-top: -45% !important;
+    margin-left: 51% !important;  
+    
+  }
+  .zohoprojects-image-position {
+    width: 44px; height: 44px;
+    background-position: -732px -812px !important;
+    zoom :0.74;
+    
+  }
+  .zohosign-image-position {
+    width: 512px; height: 512px;
+    background-position: -2px 5px !important;
+    zoom: 0.055;
+    margin-top: -43% !important;
+    margin-left: 25% !important;  
+    
+  }
+  
+  .zohosignrightside-image-position {
+    width: 512px; height: 512px;
+    background-position: -10px -7px !important;
+    zoom: 0.058;
+    margin-top: -44% !important;
+    margin-left: 26% !important;  
+  }
+  .zoom-image-position {
+    width: 500px; height: 113px;
+    background-position: -542px -10px !important;
+    zoom: 0.1;
+    margin-top: -38% !important;
+    margin-left: -33% !important;
+   
+  }
+  
+  .hubspotLeftService-image-position {
+    width: 113px; height: 112px;
+    background-position: -163px -699px !important;
+    zoom: 0.47;
+   
+   
+  }
+  .omni-image-position {
+    width: 113px; height: 112px;
+    background-position: -135px -914px !important;
+    zoom: 0.47;
+    margin-top: -48% !important;
+    margin-left: 23% !important;
+
+  
+  }
+  .portfolio-flters button {
+    font-variant-caps:all-petite-caps;
+  }
+  
+  .portfolio-flters button:hover,.portfolio-flters button:active {
+    color: #fff !important;
+    border-color: #000;
+    background-color: #000;
+
+  }
+
+  #portfolio :where(.css-dev-only-do-not-override-nllxry).ant-btn-primary{
+    color: #fff;
+    border-color: #000;
+    background-color: #000;}
+  .CardShadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .imageColorFirstValue {
+    width:"100%";
+    filter: 'invert(10%) sepia(10%) saturate(20%) hue-rotate(180deg)',
+  };
+
+  @media (max-width: 500px) {
+    .pipedrive-image-position {
+      width: 142px; height: 89px;
+      background-position: -720px -414px !important;
+      zoom: 0.37;
+      margin-left: 45% !important;
+      margin-top: -46% !important;
+      
+    }
+    .twilio-image-position {
+      width: 111px; height: 114px;
+      background-position: -11px -813px !important;
+      zoom: 0.31;
+      margin-left: 27% !important;
+      margin-top: -43% !important;
+      
+    }
+
+  }

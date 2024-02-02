@@ -1,0 +1,52 @@
+.factSection{
+  padding: 25px;
+  padding-bottom: 25px;
+}
+
+.factContainer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: lightblue;
+}
+
+.factHeader{
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.factCountUp {
+  padding-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #18d26e;
+}
+
+.ratingStar{
+  width: 100%;
+}
+.factsBackgroundImage{
+  background-color: #060B27;
+  padding: 35px 0 50px 0;
+}
+
+.factSeciton {
+    position: sticky;
+}
+.FactTitleMoblieView{
+  margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .factPara {
+      padding: 10px;
+  }
+  .factsBackgroundImage{
+    padding: 10px 0 10px 0;
+  }
+  .FactTitleMoblieView{
+    width: 30% !important;
+  }
+  
+}
+

@@ -1,0 +1,392 @@
+
+.NavBarTop {
+  height: 10vh;
+  padding: 20px;
+}
+.homePageBackgroundColor{
+  background-color: #060B27;
+  background-size: cover;
+}
+.HomePageContent {
+  padding-bottom: 27vh;
+  height: 95vh;
+}
+.marignLeftSet{
+  margin-left: -80px !important;
+}
+.homePageSize .slick-list{
+height: 710px;
+}
+.HomePageColOne {
+  padding-top: 9px;
+  margin-left: 0%;
+  font-weight: bolder !important;
+  color: white !important;
+  
+}
+.homepageTopPaddding{
+  margin-top: 60px !important;
+}
+.CoursoleTwoHomePage{
+  margin-top: 90px;
+}
+.HomePageColOneTitle {
+  color: white !important;
+  word-break: keep-all;
+  text-align: left !important;
+  padding-left: 80px;
+  padding-right: 8px;
+  font-size: 40px !important;
+
+}
+.HomePageColOneTitleSec{
+  color: white !important;
+  word-break: keep-all;
+  text-align: left !important;
+  padding-left: 80px;
+  padding-right: 8px;
+  font-size: 30px !important;
+  margin-top: 0px !important;
+  font-weight: 300 !important;
+}
+.marignLeftSet{
+  margin-left: 50px;
+}
+@media (max-width: 767) {
+  
+  .HomePageColOneTitle{
+    color: white !important;
+    word-break: keep-all;
+    text-align: center !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px !important;
+    margin-top: 30px !important;
+  }
+  .HomePageColOneTitleSec{
+    color: white !important;
+    word-break: keep-all;
+    text-align: center !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .CoursoleTwoHomePage{
+    margin-top: 20px !important;
+  }
+  .homepageTopPaddding{
+    margin-top: 0px !important;
+  }
+  .homePageSize .slick-list{
+    height: 570px;
+  }
+}
+
+.HomePagePara{
+  padding-top: 5px;
+  padding-bottom: 50px;
+  color: white !important;
+  padding-left: 80px !important;
+  padding-right: 80px;
+  text-align: left !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+.HomePageButtom{
+  text-align: center !important;
+  margin-left: 40px !important;
+  margin-bottom: 25px !important;
+}
+@media (max-width: 767px) {
+  .HomePagePara{
+    padding-bottom: 10px;
+    color: white !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    padding-left: 20px !important;
+    padding-right: 10px !important;
+  }
+  
+  .marignLeftSet{
+    margin-left: -50px !important;
+    padding-top: 0px !important;
+  }
+  .HomePageButtom{
+    text-align: left !important;
+    margin-left: 20px !important;
+    margin-bottom: 25px !important;
+  }
+  .imageWidthMobileView{
+    width: 65% !important;
+  }
+  
+  .homePageButtonNormalView{
+    display: none !important;
+  }
+  .homePageButtonMoblieView{
+    display: block !important;
+    margin-left: 50px !important;
+    margin-top: 40px !important;
+  }
+  .HomePageImage{
+    padding-top: 0px;
+    width: 55% !important; 
+    
+  }
+  .HomePageColFirstGif{
+    padding-top: 0px !important;
+  }
+}
+
+------------------------
+
+
+
+.HomePageColFirst{
+  padding-top: 2%;
+}
+.HomePageImage{
+  padding-top: 45px;
+  width: 55% !important; 
+}
+
+.borderBottomZeroListed {
+  border-bottom: 0px !important;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 0px;
+  color: #3b8855 !important;
+}
+.borderBottomNull{
+  border-bottom: 0px !important;
+  font-size: 20px;
+  padding-left: 5px !important;
+}
+.ImageFirstPage {
+  width: 80% !important;
+}
+
+
+.oappsLogoSize {
+  width: 100px;
+}
+.navTopdMenu{
+  margin-top: 10px;
+  float: right;
+  font-size: xx-small;
+}
+.navTopBorderAndBackground{
+  border: 1px solid #282D45;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius:25px;
+}
+.ZohoMeeting{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.ant-menu-item:hover {
+  color: 0 !important;
+}
+.navTopMenu{
+  margin-left: 80vh !important;
+}
+.scrolled{
+  background-image: none !important;
+  background-color: black !important;
+  padding: 10px !important;
+}
+.HoverNavBar:hover {
+  color: #000 !important;
+  background-color: #f0f0f0 !important;
+}
+
+.oappsLogoHome {
+  color:#f0f0f0 !important;
+  
+}
+.oappsLogoHome:hover {
+  color:#f0f0f0 !important;
+  
+}
+
+--------
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #060B27;
+}
+
+.topnav a {
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.topnav a:hover {
+  color: #42b8fe;
+}
+
+.topnav a.active {
+  background-color: #060B27;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .topBarMenuLeftAlignForNormalView div div .navTopHome{
+    display:none;
+    } 
+
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    
+  }
+  .topBarMenuLeftAlignForMoblieView {
+    display: block !important;
+    margin-left: 420px;
+  }
+
+  .topBarMenuLeftAlignForMoblieView div div .navTopHome{
+    display:none;
+    } 
+
+    .top-bar .responsive .ant-row .topBarMenuLeftAlignForMoblieView div div .navTopHome{
+      display:block;
+      } 
+  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position:absolute;
+    right: 0;
+    top: 0;
+    
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .topBarMenuLeftAlignForMoblieView {
+    display: block !important;
+    margin-left: 388px;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .topBarMenuLeftAlignForMoblieView {
+    display: block !important;
+    margin-left: 293px;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .topBarMenuLeftAlignForMoblieView {
+    display: block !important;
+    margin-left: 216px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .topBarMenuLeftAlignForMoblieView {
+    display: block !important;
+    margin-left: 151px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-bar {
+  position:fixed !important;
+  margin-right: 5px !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  background-color: #060b27;
+  font-size: x-small;
+  color: white;
+  background-size: cover;
+  padding-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Set a higher z-index value */
+  border-bottom: 1px solid #282D45;
+
+  }
+  .topnav a{font-size: 14px;}
+  .navTopdMenuMobileView{
+    display: none !important;
+  }
+  .navTopdMenuNormalView{
+    display: block !important;
+    border: 1px solid #282D45;
+    padding: 15px;
+    margin-left: 10px;
+    border-radius:25px;
+  }
+  .navbarIconMobileView{
+    display: block !important;
+  }
+.topBarMenuLeftAlignForNormalView{
+  display: none !important;
+}
+.navBarHomeTabForMobileView{
+  display: block !important;
+}
+  
+}
+.topBarMenuLeftAlignForNormalView{
+  display: block;
+}
+.topBarMenuLeftAlignForMoblieView{
+  display: none;
+}
+
+.top-bar {
+  position:fixed;
+  margin-bottom: 25px !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #060b27;
+  font-size: x-small;
+  color: white;
+  background-size: cover;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Set a higher z-index value */
+  border-bottom: 1px solid #282D45;
+}
+
+.carousel-wrapper {
+  background-color: #f5f5f5; /* Replace with your desired background color */
+  margin-top: 83px;
+  
+}
+
+.topbar-scrolldown{
+  background-color: #060b2780;
+  backdrop-filter: blur(10px);
+}
+
+

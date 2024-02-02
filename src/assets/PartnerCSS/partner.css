@@ -1,0 +1,302 @@
+.partnerSection {
+  background-image: url("../../img/Partner/partnerBackground.png");
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  border-bottom-right-radius:35%;
+  border-bottom-left-radius:35%;
+  height: 150px;
+}
+.partnerSectionImageNormalView{
+  display: block !important;
+}
+.partnerSectionImageMobileView{
+  display: none !important;
+}
+
+.parterSectionSpace {
+  padding: 2%;
+  text-align: left;
+  margin-left: 32px;
+  border-radius: 50px;
+  margin-right:29px;
+  margin-bottom: 41px;
+  color: white;
+
+}
+.parterSectionSpaceZoho{
+  background-color: black;
+}
+.parterSectionSpacePipedrive{
+  background-color:black;
+}
+.parterSectionSpaceHubspot{
+  background-color:black;
+}
+.parterSectionSpaceShopify{
+  background-color: black;
+}
+
+.zohoPartnerSeperate-possition {
+  height: 351px;
+  background-position:  122px 93px !important;
+  margin-top: 4% !important;
+  zoom:0.105;
+
+}
+.partnerListItem {
+  padding:0px !important;
+  border-block-end:0px !important;
+}
+.partnerButton {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-radius: 40px 40px 40px 40px;
+  margin-top: 15px;
+  justify-content: center !important;
+  background-color: #1d40bc;
+
+}
+.partnerLogosNormalView{
+  display: block;
+}
+.partnerLogosMobileView{
+  display: none;
+}
+@media (max-width: 500px) {
+  
+  .partnerButton{
+    padding: 5px !important;
+    margin: 0px !important;
+    font-size: small !important;
+    border-radius: 20px !important;
+    margin-left: 40px !important;
+    
+  }
+  .partnerSection {
+    margin-left: 0px !important;
+  }
+  .partnerSection .partnerLogosMobileView{
+    width: 100% !important;
+  }
+  .mobileViewPartner{
+    width: 100%;
+  }
+  .moblieViewMainContent{
+    padding: 5px !important;
+  }
+
+  .zoho-types{
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  
+  .partnerParaMoblieViewRemove{
+    display: none !important;
+  }
+  .serviceCard{
+    height:204px !important;
+    margin-left: 16px;
+  }
+  .partnerSectionImageNormalView{
+    display: none !important;
+  }
+  .partnerSectionImageMobileView{
+    display: block !important;
+  }
+  .partnerLogosNormalView{
+    display: none;
+  }
+  .partnerLogosMobileView{
+    display: block;
+  }
+  .PartnerTitle{
+    font-size: 18px !important;
+  }
+  .partnerSpecialLearnMore{
+    font-size: medium !important;
+    align-items: end;
+  }
+  .PartnerMoblieView{
+    margin-top: -40px !important;
+  }
+  .PartnerTilteMoblieView{
+    width: 35% !important;
+    margin-top: 45px !important;
+  }
+}
+
+
+.hubspotPartnerSeperate-possition {
+  width: 504px !important; height: 225px;
+  background-position: 341px -474px !important;
+  margin-top: 8% !important;
+  margin-bottom: 4% !important;
+  zoom:0.65;
+}
+
+.shopifyPartnerSeperate-possition {
+  width: 250px !important; height: 250px;
+  background-position: 217px -1021px !important;
+  margin-top: 4% !important;
+  margin-bottom: 4% !important;
+  zoom:0.2;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-70px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(70px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.partnerImageSizeIn{
+  width:70%;
+}
+ 
+.serviceCard{
+  border: 1px solid transparent;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 90%; 
+  height: 325px;
+  margin-bottom: 15px; 
+  background-color: white; 
+  color: black;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.ZohoHubspotCard{
+  border: 3px solid transparent;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.ZohoHubspotCard:hover{
+  border: 3px solid #4cf808;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.PipedriveShopifyCard{
+  border: 3px solid transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.PipedriveShopifyCard:hover{
+  border: 3px solid #ee3f0c;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ----------------------------------------------- */
+.zoho-types{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px 0 20px;
+  max-width: 1080px;
+  margin: 0 auto;
+
+}
+
+.blobOne{
+  position: absolute;
+  top: 20%;
+  right: -190px;
+  width: 280px;
+  z-index: 0;
+  opacity: .15;
+}
+.blobSec{
+  position: absolute;
+  top: 10%;
+  left: -190px;
+  width: 380px;
+  z-index: 0;
+  opacity: .15;
+}
+.blobThird{
+  position: absolute;
+  top: -20px;
+  left: -120px;
+  width: 90px;
+  z-index: 0;
+  opacity: .15;
+}
+.blobFour{    position: absolute;
+  top: -22px;
+  left: 180px;
+  width: 130px;
+  z-index: 0;
+  opacity: .15;
+}
+.blobFive {
+  position: absolute;
+  bottom: 50px;
+  right: -104px;
+  width: 130px;
+  z-index: 0;
+  opacity: .15;
+}
+
+.whitePartner{
+  color: white !important;
+}
+.partnerParaMoblieViewRemove{
+  color: black;
+  font-size: 16px !important;
+}
+.partnerList .ant-list-item-meta-title{
+  color: #535558 !important;
+}

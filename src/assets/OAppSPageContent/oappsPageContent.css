@@ -1,0 +1,99 @@
+.image-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .content {
+    height: 250px;
+    margin-top: 50px;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .oappsPageTitle{
+    margin-bottom: 32px !important;
+  }
+  @media (max-width: 500px) {
+    .content {
+        min-height: 450px;
+    }
+    
+  }
+  .oappsPagePara{
+    font-size: 18px !important;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 30px;
+    color: #484848;
+    padding-bottom: 20px !important;
+  }
+  .oappsPageHeightInMobileView{
+    height: 240px;
+  }
+  .ourCustomverHeightInMobileView{
+    height: 240px;
+  }
+
+
+  .ourCustomerLogos {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap; /* Keep images in a single line */
+  }
+  
+
+
+  .ourCustomerLogos img {
+    display: inline-block;
+    vertical-align: top;
+    animation: slideAnimation 15s linear infinite;
+    width: auto;
+    height: 100px;
+  }
+  .ourCustomerLogos:hover img {
+    animation-play-state: paused;
+  }
+
+  @keyframes slideAnimation{
+    0%{ transform:translateX(0px) }
+    100%{ transform:translateX(-77%) }
+    
+ }
+    
+  @keyframes slideAnimation1 {
+    0%, 100% {
+      transform: translateX(25%);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust this value based on the number of images */
+    }
+  }
+
+
+
+
+  @media (max-width: 500px) {
+   .oappsPageTitle{
+    font-size: 26px !important;
+    color: #8F9BB7;
+   }
+    .oappsPagePara {
+      font-size: 16px !important;
+      line-height: 25px;
+      padding-left: 25px;
+      padding-right: 17px;
+      padding-bottom: 0px !important;
+    }
+    .oappsPageHeightInMobileView{
+      height: 400px;
+    }
+    .ourCustomverHeightInMobileView{
+      height: 250px;
+    }
+    .ProviderTitle{
+      margin-bottom: 15px !important;
+    }
+    
+  }
